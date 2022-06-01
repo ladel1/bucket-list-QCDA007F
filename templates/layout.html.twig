@@ -17,7 +17,7 @@
                 <nav>
                     <ul>
                         <li><a href="{{ path('app_home') }}">Home</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="{{ path('app_wish_list') }}">liste wish</a></li>
                     </ul>
                 </nav>
             </header>
@@ -30,5 +30,7 @@
                 </p>
             </footer>
         </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>                
+        {% block javascript %}{% endblock %}
     </body>
 </html>
