@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #b0413e;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.logo img{
+    height: 45px;
+    cursor: pointer;
+}
+
+.logo img:hover{
+    filter: brightness(0) invert(1);
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.site-title h1{
+    text-align: center;
+}
+.content p {
+    text-align: justify;
+}
+.inside{
+    padding: 15px;
+    margin-top: 30px;
+}
+
+main{
+    min-height: 80vh;
+}
+
+footer p{
+    text-align: center;
+}
