@@ -31,10 +31,6 @@ class MainController extends AbstractController{
         return $this->render("main/legalstuff.html.twig");
     }
 
-    
-
-
-
 }
 
 

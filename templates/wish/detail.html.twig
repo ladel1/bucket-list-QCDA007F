@@ -6,20 +6,15 @@
 {% block main %}
 <div class="inside">
     <div class="site-title">
-        <h1>Detail</h1>
+        <h1>Detail {{ wish.title }}</h1>
     </div>
     <div class="content">
         <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate possimus labore praesentium, sed explicabo ipsum maiores, accusantium rerum recusandae dolor obcaecati consequuntur impedit id hic dolores earum, nesciunt in perferendis.
-            Fuga reiciendis ut fugiat necessitatibus temporibus possimus dignissimos optio molestias? Harum consequuntur eveniet neque cum necessitatibus tempore eligendi tenetur! Magnam aliquam ratione sapiente illum quae similique voluptatibus adipisci! Maiores, repellat.
-            Et, cum quam! Laudantium tempora quia cumque nihil, iure natus eum id assumenda reprehenderit, cupiditate veritatis delectus doloribus illo provident quae ipsa laboriosam, perspiciatis fuga eius rerum! Cum, voluptatibus vitae!
-            Natus at ipsam eveniet quisquam repudiandae officia voluptas aliquam hic numquam laudantium. Architecto quidem, voluptatum, dignissimos delectus repudiandae amet sit harum quas vel ea temporibus, molestiae atque et deleniti optio.
-            Quo nostrum explicabo minus saepe aliquam a eaque fuga perferendis tempore obcaecati ipsa quasi necessitatibus officiis modi, possimus animi ipsam sit excepturi? Repudiandae aspernatur possimus repellendus quis dicta praesentium tempora!
-            Cupiditate ad, temporibus ducimus, placeat cumque, reiciendis odit architecto itaque enim quo ab qui! Quae similique quibusdam porro adipisci ea. Suscipit aut voluptates reiciendis magnam aliquam cupiditate error officia maxime.
-            Mollitia dolore eaque unde. Neque dolorum perferendis impedit minima tenetur nobis enim dignissimos laudantium sequi sit possimus, provident quis consectetur ea error odio eveniet earum nihil quidem, aliquam quod sint!
-            Rerum odit perferendis tempora placeat soluta magnam fugit nisi itaque? Sit vero voluptatem quae! In repellat aliquam, soluta sunt corporis delectus praesentium magni recusandae, officia, architecto sed sit alias. Corporis?
-            Ducimus cupiditate est sunt iusto veniam eius odio voluptatem necessitatibus voluptatum laborum, placeat facere pariatur nostrum quo aliquam architecto quam maiores ipsum sit, totam doloribus obcaecati, voluptas reiciendis incidunt. Amet.
-            Rem consequatur nesciunt qui nisi laudantium! Nesciunt tempore exercitationem eum temporibus debitis nulla illum voluptas quae. Quae iure aut, asperiores officia natus, omnis, porro minus at dolores ut error fugit!
+            {{ wish.description }}
+        </p>
+        <small>{{ wish.author}}</small>
+        <p>
+            {{ wish.dateCreated | date("d-m-Y") }}
         </p>
     </div>
 </div>
